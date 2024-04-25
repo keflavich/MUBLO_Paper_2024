@@ -1,0 +1,483 @@
+> Reviewer's Comments:
+> 
+> This article reports the detection of a peculiar astronomical object with ALMA
+> in continuum and line emission. This object is compact, its molecular lines are
+> very broad, and the spectral index of its continuum emission indicates that the
+> emission is produced by dust. The authors performed a comprehensive analysis of
+> its observational properties, using in particular radiative transfer tools and
+> chemical models. They searched for counterparts at other wavelengths in the
+> literature or in data archives (infrared, X-rays) but they could not find any.
+> The authors attempted to classify this object by comparing it to a dozen of
+> types of astronomical objects but its nature remains a mystery, even if several
+> hypotheses are not excluded (stellar merger, intermediate mass black hole).
+> 
+> The article is well written, though a number of clarifications are needed here
+> and there (see my detailed report below). On the one hand, I think that the
+> topic of the article -- the detection of a peculiar object with astonishing
+> properties, the nature of which remains elusive -- justifies a publication in
+> ApJ Letters. On the other hand, even if the traditional page and figure/table
+> limits of the Letter format are not compulsory anymore, I find that the article
+> is currently too long; yet I do not see any obvious way to shorten it.
+> [Ed: please try, or at least make sure the presentation is as concise as possible. ]
+
+We have removed extraneous text where possible by cutting out details that were not important for the overall discussion.  We removed one figure, but determined that others could not be removed.
+
+We recognize that this paper is longer than a typical Letter still, and likely goes into greater depth on the "What is it?" question than one might expect at first glance.  However, we feel that the length and depth of the discussion in that section (which comprises most of the text) is proportionate to the observational similarity and is therefore needed to convince the reader that the MUBLO is not compellingly identified as belonging to one of these classes.
+
+ 
+> I did not find any flaws in the article. Given the puzzling nature of the
+> discovered object that will certainly attract the attention of the astronomical
+> community, I recommend this article for publication, provided the authors
+> address the comments and corrections listed below.
+> 
+> ______________________________________________________________
+> MAIN COMMENTS
+> 
+> 1. Table 3 reports two continuum results for the ACES data (spw33+35 and
+> spw25+27). Their positions differ by about 0.1' in both directions
+> (uncertainties?). In addition to this, the table reports offsets of the CS
+> emission of 0.4' and 0.1' in RA and Dec (uncertainties?) between the ACES and
+> 2012 data while the continuum offsets between ACES and 2012 are about 0' and
+> 0.2' in RA and Dec (uncertainties?). All this casts serious doubts on the
+> robustness of the offset 0.24' +/- 0.043' between the ACES and 2012 data
+> reported on l. 128 and subsequently converted into a proper motion. Table 3 does
+> not provide any clear evidence that there is a significant offset between the
+> ACES and 2012 data sets. It seems that systematic errors play a role or that the
+> statistical error (0.043') has been underestimated. In view of the statement
+> made on l. 104, I would tone down the report of this offset and would not report
+> any speculative proper motion (I would at best report an upper limit).
+
+We have reframed the discussion of the spatial measurements by noting that we
+expect the errors to be dominated by systematic uncertainty. We have removed the
+speculative proper motion measurement, since we regard it as unlikely to be
+real.
+ 
+> 2. Caption of Fig. 2: The sentence "Only CS, SO, and SO2 are detected" implies
+> that 34SO 3(2)-2(1) is not detected but this transition is listed as detected in
+> the ACES data in Table 2. What should the reader trust? In addition to this,
+> Fig. 2 does not show an obvious detection of SO2. The situation is similar for
+> SO2, 34SO, and C34S in Fig. 3. I think that in all these cases, it would be
+> important to show additional figures with the spectra smoothed to a spectral
+> resolution that would reveal clear detections (i.e. with a peak temperature
+> above the 3 sigma level).
+
+We added 'and their isotopologues' to clarify that, indeed, the 34S
+isotopologues are detected.
+We have also restructured the figure to show detections on the left and nondetections of relevant molecules on the right.
+
+
+ 
+> 3. l. 121: "H13CO+ looks like it is detected with a comparable line width": this
+> is not obvious at all in Fig. 2. Here again, smoothing the spectrum spectrally
+> may convince the reader that some emission is detected.
+
+Our point here was to emphasize that H13CO+ is _not_ detected, even though there
+is apparent signal in the figure.  The spectrum contains some irreducible
+background structure that shows up as mostly positive residuals that makes it
+appear as though there is a detection, but as emphasized in the text, it is not
+compact and therefore should not be attributed to the MUBLO.
+
+ 
+> 4. l. 329: "Similarly, the lack of velocity gradient": this statement is
+> puzzling because the authors showed in Fig. 5 a hint of a (strong!) velocity
+> gradient. What would be the timescale associated with the velocity difference
+> and spatial offset of the blueshifted and redshifted components? (another time
+> scale, computed from the linewidth and source size, is reported in Sect. 6.1.3.)
+
+Indeed, this was poorly phrased.  We have changed it to:
+"Similarly, the small value of the spatial gradient with velocity suggests that
+it is face-on."
+In order to derive a timescale from this gradient, we would need to know the associated
+spatial scale, which is only poorly constrained.  If we formally reduce the velocity
+gradient to a timescale, it's ~90 years.
+
+> 5. l. 486: "it occurred > 10 years ago to account for the re-freezeout of SiO":
+> this argument is puzzling in light of the detection of SiO toward CK Vul, which
+> is thought to be a 350 year-old remnant.
+
+This is a good point, so we have added the parenthetical:
+"(but in old LRN, like CK Vul, SiO has not frozen out)"
+to acknowledge that.
+ 
+> ______________________________________________________________
+> OTHER COMMENTS
+> 
+> 6. It would be useful to give some more information about the ACES program, for
+> instance the ranges of galactic longitude and latitude of the survey.
+
+We added a sentence about its coverage.
+ 
+> 7. several acronyms should be explained the first time they appear in the text
+> (RADEX, LTE, ACES, ALMA, CASA, MOUS, YSO etc.)
+
+RADEX is not an acronym.  The others we have specified.
+ 
+> 8. Table 1: it would be useful to provide the frequency range(s) of each data
+> set as well as the array used (12 m or 7 m).
+
+Done
+ 
+> 9. l. 99: "Two programs observing the 50 km s-1 cloud": this cloud was not
+> mentioned before and should be introduced (references?).
+
+Added
+
+> 10. l. 107-108: "show a few additional detections, and the consistent detections
+> of overlapping lines": this is a vague statement. The authors should refer to
+> Sect. 3.1 where the list of lines is provided.
+
+Added reference
+ 
+> 11. Fig. 1: I suppose that the figure shows the ACES data, not the 2012 ones.
+> The caption should make this clear.
+
+clarified
+ 
+> 13. Fig. 1: the caption should explain the meaning (and provide the units) of A,
+> DeltaX, and sigma.
+
+Added
+ 
+> 14. Table 2: I do not fully understand the origin of the data listed in this
+> Table. Three lines are explicitly tagged with "(2012)" while four lines in the
+> 2012 data are listed on l. 115. I am also puzzled by the first entry 34SO
+> 3(2)-2(1), because this transition is not listed as detected in the ACES data on
+> l. 114. The authors should add a column providing the origin of the data (ACES
+> or 2012).
+
+We have restructured Table 2 to be clearer about the origin of the data.  34SO 2(3)-2(1) is detected in ACES; it's on the edge of the window.
+ 
+> 15. Table 2: what are the quantum numbers of SO and 34SO? It seems that the
+> authors wrote J(N) while the SO transitions are usually described with N,J.
+
+Indeed, we were using J(N) instead of N(J).  Splatalogue reports the former, while JPL and CDMS report the latter.  We have switched to the N(J) convention, which seems more widely adopted and appropriate given the explanation on CDMS.
+ 
+> 16. Table 2: the number of digits provided after the comma of the fit results
+> does not make much sense. For instance, only three digits are given for the
+> central frequency while the uncertainty is in one case on the fourth digit. On
+> the contrary, three digits are given on v_cen and Width while the uncertainties
+> are higher than unity. The authors should rationalize the formats used in this
+> table.
+
+Modified.
+
+> 17. Table 2: I am puzzled by the fact that the authors do not report the FWHM,
+> which is usually what mm/submm astronomers provide when they report linewidths.
+> I would suggest to provide the FWHM instead of the "Gaussian width parameter".
+
+Changed
+ 
+> 18. Table 2: what is the purpose of providing the fit results both in frequency
+> (Center and Width [freq]) and in velocity (v_cen and Width [vel])? I think that
+> it would be sufficient to provide the results in velocity because they are the
+> ones that matter for the physical interpretation.
+
+We removed the frequency width.
+ 
+> 19. l. 119: "ICRS coordinates" -> "ICRS equatorial coordinates" + give the units
+> of the coordinates (h:m:s, deg:':')
+
+We added these.
+
+> 20. Fig. 2: the quantum numbers are missing for 33SO and CH3C3N. Which
+> transitions are these?
+
+CH3C3N was included by mistake, it's not detected and not an interesting nondetection.
+We added QNs for 33SO.
+ 
+> 21. Fig. 2: what is the line at the edge of the CH3C3N spectrum?
+
+That was the SO 3(2)-2(1) line. (but we removed that spectrum)
+ 
+> 22. Caption of Fig. 3: "There are no detections in B7": what are the features in
+> the CO 3-2 spectrum and at the edge of the SO2 13(2,12)-12(1,11)?
+
+Those are from extended CO emission.  We added a clarification that the CO is diffuse.
+ 
+> 23. Fig. 3, left panel: no 34SO 4(5)-4(4) emission is detected at the velocities
+> where there is significant CS emission. Could the absorption and emission
+> features seen between 100 and 200 km/s in the 34SO 4(5)-4(4) spectrum belong to
+> methanol (96741.3710 MHz, CH3OH 2 0 2 0 - 1 0 1 0)?
+
+Yes, that's a very likely identification.  Since it is composed of narrow
+absorption features, we did not identify this line as being associated with the
+MUBLO.
+
+> 24. Fig. 5: the caption should provide the values of the contour levels and how
+> they compare to the rms noise level of the integrated intensity maps.
+
+added
+ 
+> 25. Fig. 8: the caption should explain what the blue spectra represent.
+
+Description added
+ 
+> 26. Fig. 8: the synthetic spectra (blue) are barely visible. Using a different
+> color (red?) would help.
+
+recolored
+ 
+> 27. Caption of Fig. 8: "The lines appear optically thin, but with tau ~ 0.1, so
+> getting close to thick": change to "The lines appear optically thin, with tau ~
+> 0.1". A line with an opacity of 0.1 is not close to be optically thick.
+> (1-exp(-tau))/tau = 0.952 for tau = 0.1, which means that the deviation from
+> optical thinness is small (less than 5%).
+
+removed
+
+> 28. l. 203: "RADEX models": provide a reference for RADEX.
+
+added 
+
+> 29. The 3rd par. of Sect. 4.3 should refer to Appendix B.1.
+
+added
+
+> 30. l. 246-247: "Such tötally mëtal objects": what does this mean?
+
+The title of the cited paper is "Some stars are totally metal", and I'm just
+trying to sneak some https://en.wikipedia.org/wiki/Metal_umlaut into the
+academic literature.
+ 
+> 31. Caption of Fig. 9: "The MUBLO is shown in cyan contours": contours of what?
+> Continuum emission?
+
+Yes; added.
+ 
+> 32. Caption of Fig. 9: "shows the MUSTANG": the MUSTANG what? Data? Image? What
+> is MUSTANG? What kind of data is this? Reference?
+
+We failed to describe these data in the first draft.  We added a sentence in the
+observation section referring to the MUSTANG data, which are used to fill in the
+short spacing in this image.  We do not use these data for any measurements,
+just for display.
+ 
+> 33. Fig. 9: what is the insert in the bottom right corner of the right panel?
+> The caption should better explain what is displayed in this panel.
+
+Added description.
+ 
+> 34. Fig. 12: the figure should display the color scale of each image.
+
+Since we are not using these images for quantitative analysis, and we did not
+try to investigate in detail the flux calibration of the images (we instead
+trust the published catalogs), we prefer not to show colorbars on these images.
+ 
+> 35. l. 326: "Admittedly, our sensitivity to CO is limited, since it was only
+> covered in the coarse-resolution B7 data.": do the authors mean the coarse
+> *angular* resolution? (resolution could also mean spectral resolution). Another
+> problem with CO is the overlap of various diffuse or translucent clouds along
+> the line of sight which produce many absorption features that make it difficult
+> to detect and interpret the emission properly.
+
+Spatial was intended, and indeed it was meant to convey the point you have added.
+We have made the point more explicit.
+ 
+> 36. l. 352: "bright in all of the features": which features? The sentence is not
+> clear. Do the authors mean "these features" (i.e. H2, [Fe II], and SiO mentioned
+> in the sentence that precedes)
+
+Yes.  the -> these
+ 
+> 37. l. 374-375: "though the lack of an SiO v=1 maser is also weak evidence
+> against the MUBLO being an evolved star": reference?
+
+Added a reference.  
+ 
+> 38. l. 457: "(and A_K ∼ 3 along the line-of-sight to the Galactic Center)": I do
+> not understand this statement. How does it connect to the sentence that precedes
+> it? Do the authors mean that the actual extinction measured toward the Galactic
+> Center is A_K ~ 3? Doesn't it depend a lot on the considered spatial scale? The
+> high-column density of the MUBLO should considerably increase A_K locally.
+
+The point is to highlight that only ~3 magnitudes are likely from the diffuse
+line of sight; the remaining extinction would need to be produced locally.
+We've rephrased to make this clearer.
+ 
+> 39. l. 496: "has an upper size limit r < 5000 AU(< 0.02 pc)" -> "has a radius
+> smaller than 5000 au (0.02 pc)" ?
+
+changed
+ 
+> 40. The authors assume a distance of 8.5 kpc in Fig. 13 but 8 kpc elsewhere in
+> the article (e.g., in Sect. 6.2.2). Is there a reason for this discrepancy?
+
+Force of habit!  We have corrected this figure to match the 8 kpc used
+elsewhere.
+ 
+> 41. l. 528: where does equation 3 come from? Reference?
+
+Reference added.
+TODO: coauthors, anyone know a good original source to quote for this?  Or is the textbook reference OK here?
+ 
+> 42. l. 533: how was r_min computed? Equation? Reference?
+
+This comes from inverting Equation 4, which we now say explicitly
+ 
+> 43. Fig. 14: what is the scale of the proper motion vectors?
+> 
+> 44. to save space, Fig. 14 could be removed and the proper motions shown on the
+> identical HST 1.9 image of Fig. 11 instead.
+
+The scale of the vectors is arbitary; we were only looking for trends, not absolute values.
+In the interest of saving space (and not cluttering figure 11), we simply remove this figure.
+ 
+> 45. l. 554: "an average CS brightness of 53 K km s-1 and SO brightness 10 K km
+> s-1": for which transitions of CS and SO?
+
+2-1 & 3(2)-2(1); fixed
+ 
+> 46. l. 593: theta_maj is ambiguous. The authors should specify if they mean a
+> radius or a diameter.
+
+We have clarified by adding "FWHM" to the subscript.  This is the deconvolved
+object size reported in Table 3.  It could be interpreted as a diameter, but is
+more accurately treated as the FWHM of a Gaussian emission profile.
+
+> 47. l. 593: "at d_gc" -> "assuming a distance of XX kpc"
+
+changed
+
+> 48. l. 597: this fourth item should be moved before the second item because the
+> second item assumes a location of the MUBLO in the Galactic center region.
+
+reordered (this change will not show up in bold)
+ 
+> 49. l. 598: "by the spectral index": add "of its continuum emission"
+
+added
+ 
+> 50. l. 599: "assuming typical ISM dust": add "and a gas-to-dust mass ratio of
+> 100"
+
+added
+ 
+> 51. I would also add in this summary of key observational features that the
+> MUBLO has no counterpart at other wavelengths.
+
+Good point, added.
+ 
+> 52. l. 644: "tracks the time evolution of a cloud" -> "tracks the time evolution
+> of the chemistry of a cloud"
+
+fixed
+ 
+> 53. l. 653: "that follows the time evolution of a cloud" -> "that follows the
+> time evolution of the chemistry of a cloud"
+
+fixed
+ 
+> 54. l. 659: "Table B.1": do the authors mean Table 5?
+
+We fixed the broken latex reference.
+ 
+> 55. Fig. 16: the left and middle panels are not consistent with each other. The
+> red stars cross the blue shaded area for a CR ionization rate between 3e-17 and
+> 6e-16 in the left panel but between 2e-15 and 3e-15 in the middle panel. Why? Is
+> it because the temperature used by the authors to compute N(SO)/N(CS) from the
+> observations is much different from the temperature computed by the Meudon PDR
+> code for these two molecules? This should be explained in Sect. B.1.
+
+TODO: @miriam
+
+This is likely because the N(SO) and N(CS) from models use all the lines (from the modeled abundances), while in this work we estimated N(SO) using 3 emission lines and the LTE approach (Figure 7). Furthermore, to determine N(CS) we assume the same rotational temperature than that estimated for SO in the rotational diagram. Possibly, the estimated SO/CS column density is a lower limit. We need more CS and SO lines to better determine this ratio.
+ 
+> 56. Caption of Fig. 17: "The green vertical shaded area marks the outer layers
+> of the cloud": I do not see any green shaded area in this figure.
+
+We removed this text; it applied to a previous version of the figure.
+
+> ______________________________________________________________
+> CORRECTIONS
+> 
+> . the IAU recommends to use "au" instead of "AU" for the astronomical unit
+> (decision taken in 2012).
+
+fixed
+ 
+> . l. 117: "The full table of line measurements is in Table 2" -> "The full list
+> of line measurements is in Table 2"
+
+fixed
+ 
+> . Fig. 2, label of x-axis: "speed/velocity" -> "velocity"
+> 
+> . l. 128: "between the 2012 and 2021 data sets": there are no 2021 data reported
+> in Table 1. I suppose the authors mean the 2022 ACES data.
+> 
+> . l. 145: delete "had lower peak signal-to-noise". This repeats what is stated
+> in the preceding sentence.
+
+fixed
+ 
+> . l. 151: "assuming T=20 K and gas/dust = 100" -> "assuming a dust temperature
+> of 20 K and a gas-to-dust mass ratio of 100"
+
+fixed
+ 
+> . l. 157: "B3 source size": what does B3 mean? band 3?
+
+Yes; explained now.
+ 
+> . l. 195: "the absolute abundances" -> "the abundances relative to H2"
+
+fixed
+
+> . l. 231: "nH ~ 1e5": add the unit.
+
+ added
+ 
+> . l. 324: "not the correct interpretation": add a colon.
+
+added 
+
+> . l. 325: "The limited emission lines detected" -> "The limited number of
+> emission lines detected"
+
+fixed
+ 
+> . l. 351: "the excitation conditions are very cold" -> "the excitation
+> temperatures are very low"
+
+fixed 
+
+> . l. 378: "starsand" -> "stars and"
+
+fixed 
+
+> . l. 389: "which we from Figure B.1": incorrect syntax.
+
+fixed
+ 
+> . l. 408: "The limited molecules" -> "The limited number of molecules"
+
+fixed
+
+>. l. 420-421: "The estimated dust mass (~50 Msun of gas)" -> "The gas mass
+> estimated from the dust continuum emission (~50 Msun)" ?
+
+fixed
+ 
+> . l. 477: "where SO~SO2 >> SiO and HC3N" -> "where SO and SO2 are much more
+> abundant than SiO and HC3N"
+
+fixed
+ 
+> . l. 663: "cosmic rays ionization rate": ray
+
+fixed
+ 
+> . Caption of Fig. 16: "and and sulfur abundance": delete one "and"
+
+fixed 
+
+> . Caption of Fig. 19: "it takes a much longer to reach" -> "it takes a much
+> longer time to reach"
+
+fixed
+
+
+We made a few other minor corrections:
+ * a citation for Vizier was added
+ * small clarifications and corrections were added through the text in bold
+ * a few sentences have been removed in an effort to slim down the paper
